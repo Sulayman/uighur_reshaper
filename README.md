@@ -13,9 +13,8 @@ pip install uighur_reshaper
 ###  Usage
 To use Uighur Reshaper in a Python script:
 ```bash
-from shaper import uighur_reshaper
-
-converter = uighur_reshaper()
+from uighur_reshaper import reshaper
+converter = reshaper()
 reshaped_text = converter.basic2extend("ئۇيغۇرچە خەت")
 ```
 
@@ -32,9 +31,8 @@ pip install uighur_reshaper
 ### 用法
 在 Python 脚本中使用 Uighur Reshaper：
 ```bash
-from shaper import uighur_reshaper
-
-converter = uighur_reshaper()
+from uighur_reshaper import reshaper
+converter = reshaper()
 reshaped_text = converter.basic2extend("ئۇيغۇرچە خەت")
 ```
 
@@ -53,7 +51,7 @@ pip install uighur_reshaper
 ### ئىشلىتىش
 
 ```bash
-from shaper import uighur_reshaper
-converter = uighur_reshaper()
+from uighur_reshaper import reshaper
+converter =  reshaper()
 reshaped_text = converter.basic2extend("سىزنىڭ ئۇيغۇرچە تېكىستىڭىز")
 ```
